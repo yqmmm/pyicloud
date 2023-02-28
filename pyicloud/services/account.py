@@ -22,7 +22,7 @@ class AccountService:
         self._acc_family_member_photo_url = (
             "%s/family/getMemberPhoto" % self._acc_endpoint
         )
-        self._acc_storage_url = "https://setup.icloud.com/setup/ws/1/storageUsageInfo"
+        self._acc_storage_url = "https://setup.icloud.com.cn/setup/ws/1/storageUsageInfo"
 
     @property
     def devices(self):

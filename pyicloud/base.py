@@ -201,8 +201,8 @@ class PyiCloudService:
     """
 
     AUTH_ENDPOINT = "https://idmsa.apple.com/appleauth/auth"
-    HOME_ENDPOINT = "https://www.icloud.com"
-    SETUP_ENDPOINT = "https://setup.icloud.com/setup/ws/1"
+    HOME_ENDPOINT = "https://www.icloud.com.cn"
+    SETUP_ENDPOINT = "https://setup.icloud.com.cn/setup/ws/1"
 
     def __init__(
         self,
